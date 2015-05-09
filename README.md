@@ -1,6 +1,9 @@
 # StudyGroupsApi
 API for University Study Groups
 
+To create a new study group entry make a POST request to /groups with the following JSON format:
+
+```json
 {
     "title": "some_data", 
     "starting_date": "some_data", 
@@ -12,3 +15,4 @@ API for University Study Groups
     "cordinator_email": "some_data", 
     "comments": "some_data"
 }
+```
